@@ -1,0 +1,45 @@
+/* Write your CSS code here */
+.user-info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.user-info-image {
+  width: 100px;
+  height: 100px;
+}
+
+.user-name {
+  font-size: 18px;
+  font-weight: 900;
+  color: #12022f;
+  font-family: 'Roboto';
+  margin-top: 20px;
+}
+
+.user-role {
+  font-size: 15px;
+  color: #616e7c;
+  font-family: 'Roboto';
+  margin-top: 2px;
+}
+
+@media screen and (min-width: 992px) {
+  .user-info-image {
+    width: 120px;
+    height: 120px;
+  }
+
+  .user-name {
+    font-size: 22px;
+    margin-top: 24px;
+  }
+
+  .user-role {
+    font-size: 18px;
+    margin-top: 7px;
+  }
+}

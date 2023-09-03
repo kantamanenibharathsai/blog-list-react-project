@@ -1,0 +1,46 @@
+/* Write your CSS code here */
+.list-item {
+  list-style-type: none;
+  border-bottom: 1px solid #616e7c;
+}
+
+.title-date-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 19px;
+  font-weight: 900;
+  color: #12022f;
+}
+
+.published-date {
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 400;
+  color: #9aa5b1;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 400;
+  color: #9aa5b1;
+}
+
+@media screen and (min-width: 992px) {
+  .title {
+    font-size: 22px;
+  }
+
+  .published-date {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 20px;
+  }
+}
